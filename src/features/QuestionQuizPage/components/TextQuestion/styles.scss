@@ -1,0 +1,26 @@
+.wrap-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px !important;
+  .count-question {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 0;
+  }
+  .title-question {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+img.loading-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  border-radius: 50%;
+}
